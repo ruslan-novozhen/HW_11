@@ -142,6 +142,7 @@ ul {
   background-image: url("../img/first_screen_bg.jpg");
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
   color: #fff;
   margin-bottom: 60px;
 }
@@ -240,6 +241,7 @@ ul {
   background-image: url("/img/about_me_bg.jpg");
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -301,6 +303,7 @@ ul {
   background-image: url("/img/counter_bg.jpg");
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
   display: flex;
   text-align: center;
   justify-content: space-between;
@@ -385,6 +388,7 @@ ul {
   background-image: url("/img/blog_bg.jpg");
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
   color: #fff;
   margin-bottom: 60px;
 }
@@ -477,6 +481,7 @@ ul {
   background-image: url("/img/map.jpg");
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
   display: flex;
   justify-content: flex-end;
 }
