@@ -47,6 +47,15 @@ body {
   padding-right: calc(50vw - 585px);
 }
 
+.icon {
+  width: 56px;
+  height: 56px;
+}
+.icon_footer {
+  width: 18px;
+  height: 18px;
+}
+
 input,
 select,
 textarea {
@@ -219,11 +228,6 @@ summary {
   line-height: 150%;
   font-weight: 500;
   text-align: center;
-}
-
-.icon {
-  width: 56px;
-  height: 56px;
 }
 
 .screen3-about {
@@ -504,4 +508,27 @@ summary {
 }
 .screen10-sale__checkbox {
   text-align: center;
+  margin-bottom: 60px;
+}
+
+.footer {
+  background-color: #2d5e5e;
+}
+.footer__panel {
+  display: flex;
+  align-items: center;
+  padding: 60px 0;
+  gap: 30px;
+}
+.footer__panel-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.footer__social {
+  margin: 0;
+  color: #fff;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 171%;
 }/*# sourceMappingURL=main.css.map */

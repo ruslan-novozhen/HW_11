@@ -21,6 +21,15 @@ body {
   padding-right: calc(50vw - 585px);
 }
 
+.icon {
+  width: 56px;
+  height: 56px;
+  &_footer {
+    width: 18px;
+    height: 18px;
+  }
+}
+
 input,
 select,
 textarea {
