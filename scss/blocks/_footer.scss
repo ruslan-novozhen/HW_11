@@ -6,10 +6,15 @@
     align-items: center;
     gap: 10px;
     color: #fff;
+    fill: #fff;
     text-decoration: none;
     font-size: 14px;
     line-height: 171%;
     font-weight: 500;
+    &:hover {
+      color: yellowgreen;
+      stroke: yellowgreen;
+    }
   }
 
   &__panel {

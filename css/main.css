@@ -525,10 +525,15 @@ ul {
   align-items: center;
   gap: 10px;
   color: #fff;
+  fill: #fff;
   text-decoration: none;
   font-size: 14px;
   line-height: 171%;
   font-weight: 500;
+}
+.footer__link:hover {
+  color: yellowgreen;
+  stroke: yellowgreen;
 }
 .footer__panel {
   display: flex;
