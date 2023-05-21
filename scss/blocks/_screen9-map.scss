@@ -1,0 +1,28 @@
+.screen9-map {
+  background-image: url("/img/map.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: flex-end;
+
+  &__contacts {
+    margin: 128px 0;
+    box-sizing: border-box;
+    background-color: #adddde;
+    width: 100%;
+    max-width: 477px;
+    padding: 30px 30px;
+  }
+  &__title {
+    margin: 0 0 20px;
+    color: $general-color;
+    font-size: 48px;
+    line-height: 150%;
+  }
+
+  &__contact-item {
+    margin: 0 0 10px;
+    font-weight: 500;
+    line-height: 150%;
+  }
+}

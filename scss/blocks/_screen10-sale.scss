@@ -1,0 +1,17 @@
+.screen10-sale {
+  &__title {
+    margin: 60px 0;
+    font-size: 48px;
+    line-height: 150%;
+    text-align: center;
+  }
+  &__form {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    margin-bottom: 25px;
+  }
+  &__checkbox {
+    text-align: center;
+  }
+}

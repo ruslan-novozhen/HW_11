@@ -1,0 +1,56 @@
+.btn {
+  width: 100%;
+  max-width: 250px;
+  background-color: $general-color;
+  border-radius: $border-radius;
+  border: 3px solid transparent;
+  padding: 8px 0;
+  color: #fff;
+  font-size: 18px;
+  line-height: 133%;
+  cursor: pointer;
+  transition: all 0.25s ease;
+
+  &_with {
+    width: 100%;
+    background-color: $general-color;
+    border-radius: $border-radius;
+    border: 3px solid transparent;
+    padding: 8px 0;
+    color: #fff;
+    font-size: 18px;
+    line-height: 133%;
+    cursor: pointer;
+    transition: all 0.25s ease;
+
+    &:hover {
+      background-color: $hover-color;
+      color: black;
+    }
+  }
+
+  &_line {
+    background-color: transparent;
+    width: 100%;
+    max-width: 250px;
+    border-radius: $border-radius;
+    border: 3px solid $general-color;
+    font-size: 18px;
+    line-height: 133%;
+    cursor: pointer;
+    padding: 8px 0;
+    color: #fff;
+    transition: all 0.25s ease;
+    margin-right: 30px;
+
+    &:hover {
+      background-color: $hover-color;
+      color: black;
+    }
+  }
+
+  &:hover {
+    background-color: $hover-color;
+    color: black;
+  }
+}

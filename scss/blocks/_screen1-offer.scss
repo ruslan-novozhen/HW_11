@@ -1,0 +1,24 @@
+.screen1-offer {
+  padding-top: 241px;
+  padding-bottom: 161px;
+  background-image: url("../img/first_screen_bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fff;
+  margin-bottom: 60px;
+
+  &__title {
+    font-size: 48px;
+    line-height: 150%;
+    width: 100%;
+    margin: 0 0 55px;
+    max-width: 454px;
+  }
+  &__desc {
+    font-size: 24px;
+    line-height: 150%;
+    font-weight: 400;
+    margin: 0 0 55px;
+    max-width: 300px;
+  }
+}

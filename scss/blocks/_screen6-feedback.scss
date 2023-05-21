@@ -1,0 +1,54 @@
+.screen6-feedback {
+  &__title {
+    margin: 60px 0 50px;
+    text-align: center;
+    font-size: 48px;
+    line-height: 150%;
+    text-align: center;
+  }
+  &__field {
+    box-sizing: border-box;
+    background-color: #adddde;
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    padding: 20px 25px;
+  }
+}
+
+.user-feedback {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+
+.field-girlname {
+  font-size: 18px;
+  color: $general-color;
+  font-weight: 500;
+}
+
+.field-desc {
+  margin: 30px 0 0;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.material-symbols-outlined {
+  color: #adddde;
+  font-size: 30px;
+
+  &:hover {
+    color: $general-color;
+    cursor: pointer;
+  }
+}
+
+.field-with-icon {
+  display: flex;
+  justify-content: center;
+  gap: 43px;
+  align-items: center;
+  margin-bottom: 60px;
+}

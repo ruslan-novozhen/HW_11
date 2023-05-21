@@ -1,0 +1,35 @@
+.screen5-conters {
+  background-image: url("/img/counter_bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+
+  &__item {
+    color: #fff;
+    width: 100%;
+    max-width: 300px;
+    padding: 60px 0;
+  }
+
+  &__num {
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 150%;
+    margin: 0;
+    margin-bottom: 14px;
+  }
+
+  &__title {
+    margin: 0;
+    margin-bottom: 20px;
+    line-height: 133%;
+  }
+
+  &__desc {
+    margin: 0;
+    font-weight: 500;
+    line-height: 150%;
+  }
+}
